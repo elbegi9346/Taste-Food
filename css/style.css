@@ -1,0 +1,212 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f7f7;
+  font-family: 'Comfortaa', cursive;
+}
+
+body .header-top {
+  background-image: url(../images/chef-icon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+body .header-top .logo_name {
+  font-size: 3rem;
+  font-weight: bold;
+  bottom: 0;
+}
+
+body .header-top .slogan_text {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+body .navbar {
+  width: 80%;
+  margin: 50px auto;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+body .navbar .nav-list {
+  list-style: none;
+}
+
+body .navbar .nav-list .nav-item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 20px 40px;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+body .navbar .nav-list .nav-item .nav-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+body .navbar .nav-list .active, body .navbar .nav-list .nav-item:hover {
+  background-color: rgba(211, 214, 214, 0.5);
+}
+
+body .main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+body .main .row {
+  margin: 0;
+}
+
+body .main .row .card {
+  width: 30%;
+  max-height: 100%;
+  display: inline-block;
+  padding: 7px;
+  margin: 0 1rem;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+body .main .row .card .card-header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .row .card .card-header img {
+  max-width: 100%;
+  height: 220px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body .main .row .card .card-header img:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  cursor: pointer;
+}
+
+body .main .row .card .card-header .btn {
+  margin: 0.5rem;
+  padding: 5px 10px;
+  background-color: cadetblue;
+  border: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body .main .row .card .card-header .btn a {
+  text-decoration: none;
+  color: white;
+}
+
+body .main .row .card .card-header .btn:hover {
+  cursor: pointer;
+  background-color: #0c5a74;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+body .main .row .card .card-body {
+  margin: 5px 0;
+  text-align: center;
+}
+
+body .main .row .card .card-body .food-retsept {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+body .main .row .card .card-body .food-retsept_way {
+  font-size: 1rem;
+  color: #4d4a4a;
+}
+
+body .button {
+  background-color: #e9e3e3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 40%;
+  padding: 0.8rem 1.3rem;
+  border: 2px solid #f58c66;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body .button a {
+  text-decoration: none;
+  color: coral;
+  font-weight: 900;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body .button:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .form {
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+body .form .form-items {
+  display: inline-block;
+  margin: 100px 30%;
+}
+
+body .form .form-items input {
+  padding: 15px 20px;
+  border: none;
+  -webkit-box-shadow: -15px 15px 15px rgba(48, 45, 45, 0.7);
+          box-shadow: -15px 15px 15px rgba(48, 45, 45, 0.7);
+}
+
+body .form .form-items .email {
+  width: 300px;
+}
+
+body .form .form-items .submit {
+  margin-left: 50px;
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+body .form .form-items .submit:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+body .form p {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
